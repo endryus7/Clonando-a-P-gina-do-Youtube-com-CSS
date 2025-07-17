@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background: #FFF;
+    height: 56px;
+    padding: 0px 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+}
+
+.menu {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    padding: 8px;
+}
+
+.logo-youtube {
+    width: 90px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.center {
+    display: flex; 
+    align-items: center; 
+    flex-grow: 1;
+    max-width: 500px; 
+    height: 40px;
+    margin: 0 auto; 
+    border: 1px solid #303030; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    
+}
+
+.input-text {
+    flex-grow: 1; 
+    padding: 8px 15px; 
+    border: none; 
+    color: black; 
+    font-size: 16px;
+    outline: none
+}
+
+.search-icon {
+    width: 24px; 
+    height: 24px; 
+    padding: 8px 15px; 
+    cursor: pointer; 
+    border-left: 1px solid #303030; 
+    background-color: #F8F8F8;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* MAIN */
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.principal {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.principal div p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.canal {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.canal-info {
+    margin-right: 24px;
+    overflow: hidden;
+    flex: 1;
+    flex-basis: 0.000000001px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.canal-info .nome {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.canal-info .inscritos {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
